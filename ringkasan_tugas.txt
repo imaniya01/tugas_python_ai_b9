@@ -1,0 +1,15 @@
+=== Ringkasan Statistik NumPy ===
+Rata-rata: 73.70
+Median: 71.0
+Standar Deviasi: 11.71
+Nilai Minimal: 57
+Nilai Maksimal: 92
+
+=== Ringkasan DataFrame Pandas ===
+Jumlah Total Data: 10 baris
+Jumlah Lulus: 6
+Jumlah Tidak Lulus: 4
+
+=== Ringkasan dari Objek GradeBook ===
+GradeBook berisi 10 data mahasiswa.
+Rata-rata nilai keseluruhan: 73.70Tingkat Kelulusan: 60.00%
