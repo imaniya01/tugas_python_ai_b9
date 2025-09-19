@@ -5,7 +5,7 @@ np.random.seed(42)
 
 if __name__ == "__main__":
     
-    print("="*5, " NUMPY ", "="*5)
+    print( " NUMPY ")
 
     nilai_ujian = np.random.randint(50, 101, size=10)
     
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     print(f"Nilai Minimal: {nilai_min}")
     print(f"Nilai Maksimal: {nilai_max}\n")
 
-    print("="*5, " PANDAS ", "="*5)
+    print(" PANDAS ")
 
     data = {
         'nama': [f'Mahasiswa_{i+1}' for i in range(10)],
@@ -77,7 +77,7 @@ if __name__ == "__main__":
             return (f"GradeBook berisi {len(self.df)} data mahasiswa.\n"
                     f"Rata-rata nilai keseluruhan: {self.average():.2f}")
 
-    print("="*10, " OOP: GRADEBOOK ", "="*10)
+    print( " OOP: GRADEBOOK ")
 
     gradebook_obj = GradeBook(df)
 
