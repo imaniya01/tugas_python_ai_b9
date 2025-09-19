@@ -33,14 +33,14 @@ class Student:
 
 if __name__ == "__main__":
     
-    print("=== FUNCTIONS ===")
+    print(" FUNCTIONS ")
     print(greet("Arifian"))
     print(f"tambah(5, 7) = {tambah(5, 7)}")
     print(f"tambah(10) = {tambah(10)}")
     print(f"rata_rata([80, 90, 100]) = {rata_rata([80, 90, 100])}")
     print(f"rata_rata([]) = {rata_rata([])}")
     
-    print("\n=== CLASS STUDENT ===")
+    print("\n CLASS STUDENT ")
     
     mahasiswa1 = Student(nama="Budi", nim="A123")
     mahasiswa1.tambah_nilai(85.5)
